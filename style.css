@@ -1,0 +1,183 @@
+* {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.swiper {
+  width: 30%;
+  height: 50%;
+}
+
+@media (max-width: 768px) {
+  .fotosBanner,
+  .swiper {
+    width: 80vw;
+    height: 50vh;
+  }
+}
+@media (max-width: 480px) {
+  .fotosBanner,
+  .swiper {
+    width: 80vw;
+    height: 50vh;
+  }
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+hr {
+  border: 1px solid lightcoral;
+}
+.navbar {
+  background: rgba(240, 128, 128, 0.726);
+  backdrop-filter: blur(8.3px);
+  -webkit-backdrop-filter: blur(8.3px);
+}
+
+.navbar-brand {
+  font-family: "Playwrite GB S";
+  margin: 0;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar a:hover {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5%;
+}
+
+#banner {
+  margin-top: 10vh;
+}
+
+.fotosBanner {
+  width: 100%;
+  height: 100%;
+}
+
+.fotosBanner,
+p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5vh;
+  margin-bottom: 0;
+}
+
+.whatsapp-link {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  bottom: 0.6rem;
+  right: 2rem;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 2rem;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
+.fa-whatsapp {
+  margin-top: 0;
+}
+
+#sobre {
+  margin: 0 3rem 1rem 3rem;
+  background-color: lightcoral;
+}
+
+#servicos {
+  margin: 0 3rem 1rem 3rem;
+  background-color: lightcoral;
+}
+
+.fotosServico {
+  width: 36%;
+}
+@media (max-width: 480px) {
+  .fotosServico {
+    width: 80%;
+    height: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .fotosServico {
+    width: 80%;
+    height: 50%;
+  }
+}
+
+#testemunhos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightcoral;
+  margin: 0 3rem 1rem 3rem;
+}
+
+#contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightcoral;
+  margin: 0 3rem 1rem 3rem;
+}
+.form-check {
+  padding: 2rem;
+}
+
+.form-label,
+.form-check-label,
+h6,
+.card-title {
+  font-weight: bold;
+}
+
+.form-label {
+  margin: 1rem;
+}
+
+.valid-feedback {
+  color: green;
+  font-weight: bold;
+}
+
+.invalid-feedback {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+.btn-primary {
+  margin-bottom: 1rem;
+  background-color: white;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  background-color: lightcoral;
+}
+
+footer i {
+  color: black;
+  font-size: 3rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+footer i:hover {
+  color: rgb(255, 255, 255);
+}
