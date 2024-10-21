@@ -2,7 +2,8 @@
 
 ## CatLand
 
-Para a visualização da página basta clicar neste link [title](https://linckrafael.github.io/Tarefa4modulo3-DevFullStackJr/)
+Para a visualização da página basta clicar neste link [CatLand](https://linckrafael.github.io/Tarefa4modulo3-DevFullStackJr/)
+
 Porém há a possibilidade de baixar os arquivos e rodar localmente:
 
 1. Basta fazer um git clone do repositório
